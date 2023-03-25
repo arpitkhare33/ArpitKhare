@@ -1,0 +1,101 @@
+.home-container{
+
+}
+.home-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 80px 20px 80px;
+    box-shadow: 0px 10px 10px 0px rgba(167, 167, 179, 0.2);
+    height: 500px;
+}
+.profile-img{
+    width: 550px;
+    height: 100%;
+    
+}
+.home-title{
+    color: rgb(18,8,69);
+    font-size: 85px;
+    font-weight: bolder;
+}
+
+.btn{
+    background-color: rgb(117,98,224);
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.home-left{
+    padding: 30px 40px;
+}
+.home-desc{
+    margin-top: 40px;
+    width: 550px;
+}
+.brand-img{
+    width: 90px;
+    height: 90px;
+    margin-left: 100px;
+}
+.brand-bar{
+    margin: 80px 300px;
+}
+.home-experience-left{
+    margin-left: 250px;
+    margin-bottom: 200px;
+    width: 200px;
+}
+.home-experience-right{
+    margin-right: 200px;
+    width: 500px;
+}
+.home-experience-year{
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(117,98,224);
+}
+.home-experience-year-desc{
+    font-weight: bolder;
+    color: rgb(85,79,111);
+    font-size: 30px;
+}
+.home-experience{
+    display: flex;
+    justify-content: space-between;
+}
+.home-experience-title{
+    color: rgb(18,8,69);
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+.home-experience-exp-cards{
+    display: flex;
+    margin-top: 30px;
+}
+
+.home-experience-exp-card{
+    width: 150px;
+    background-color: rgb(244, 244, 249);
+    height: 100px;
+    margin: 10px 2px;
+    padding: 60px 60px;
+}
+.current{
+    background-color:  rgb(117,98,224) !important; 
+    color: white;
+}
+.home-experience-exp-card img{
+    margin-bottom: 20px;
+}
+.cs-container{
+    text-align: center;
+}
+.cs-img{
+    height: 600px;
+    width: 600px;
+}

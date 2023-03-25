@@ -1,0 +1,13 @@
+.footer{
+    text-align: center;
+    /* background-color: rgb(117,98,224); */
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* width: 100%; */
+}
+
+.social-items{
+    margin: 30px;
+    width: 50px;
+    height: 50px;
+}
