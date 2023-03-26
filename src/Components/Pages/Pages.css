@@ -1,25 +1,6 @@
-.home-container{
-
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.home-intro{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 20px 80px 20px 80px;
-    box-shadow: 0px 10px 10px 0px rgba(167, 167, 179, 0.2);
-    height: 500px;
-}
-.profile-img{
-    width: 550px;
-    height: 100%;
-    
-}
-.home-title{
-    color: rgb(18,8,69);
-    font-size: 85px;
-    font-weight: bolder;
-}
-
 .btn{
     background-color: rgb(117,98,224);
     color: white;
@@ -29,30 +10,24 @@
     margin-top: 30px;
     cursor: pointer;
 }
-.home-left{
-    padding: 30px 40px;
+.home-experience{
+    text-align: center;
 }
-.home-desc{
-    margin-top: 40px;
-    width: 550px;
+.home-title{
+    color: rgb(18,8,69);
+    font-size: 85px;
+    font-weight: bolder;
 }
 .brand-img{
     width: 90px;
     height: 90px;
-    margin-left: 100px;
-}
+    margin: 0px 50px;
+} 
 .brand-bar{
-    margin: 80px 300px;
-}
-.home-experience-left{
-    margin-left: 250px;
-    margin-bottom: 200px;
-    width: 200px;
-}
-.home-experience-right{
-    margin-right: 200px;
-    width: 500px;
-}
+    /* width: 400px; */
+    text-align: center;
+    margin: auto;
+}  
 .home-experience-year{
     font-size: 100px;
     font-weight: bolder;
@@ -62,40 +37,172 @@
     font-weight: bolder;
     color: rgb(85,79,111);
     font-size: 30px;
+    }
+.home-experience-left{
+    margin-bottom: 40px;
 }
-.home-experience{
-    display: flex;
-    justify-content: space-between;
+.w-40{
+    width: 40%;
+    margin: auto;
 }
+.w-60{
+    width: 60%;
+    margin: auto;
+}
+
 .home-experience-title{
     color: rgb(18,8,69);
     font-size: 30px;
     font-weight: bolder;
+    /* margin: 0px 200px; */
     
-}
-.home-experience-exp-cards{
-    display: flex;
-    margin-top: 30px;
-}
-
+    }
 .home-experience-exp-card{
     width: 150px;
     background-color: rgb(244, 244, 249);
     height: 100px;
-    margin: 10px 2px;
+    
+    /* flex-direction: column; */
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 60px 60px;
+    }
+.home-experience-right{
+    text-align: center;
 }
 .current{
     background-color:  rgb(117,98,224) !important; 
     color: white;
 }
-.home-experience-exp-card img{
-    margin-bottom: 20px;
+.home-experience{
+    margin-bottom: 30px;
 }
 .cs-container{
     text-align: center;
 }
 .cs-img{
-    height: 600px;
-    width: 600px;
+height: 600px;
+width: 600px;
 }
+@media (max-width: 600px){
+    .home-intro{
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* justify-content: space-between; */
+        margin: 20px 80px 20px 80px;
+        box-shadow: 0px 10px 10px 0px rgba(167, 167, 179, 0.2);
+        /* height: 720px; */
+        height: auto;
+    }
+    .profile-img{
+        width: 80%;
+        height: 80%;
+        /* align-items: end; */
+    }
+    .home-right{
+        text-align: right;
+    }
+    .home-left{
+        text-align: center;
+    }
+    .brand-bar{
+        text-align: center;
+    }
+    .home-desc{
+        padding: 0px 10px;
+    }
+    
+    .home-experience-exp-cards{
+        margin-top: 40px;
+    }
+    .brand-img{
+        width: 50px;
+        height: 50px;
+        margin: 0px 20px;
+    }
+}
+@media (max-width: 1000px) and (min-width: 600px) {
+
+    .home-intro{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px 80px 20px 80px;
+        box-shadow: 0px 10px 10px 0px rgba(167, 167, 179, 0.2);
+        /* height: 720px; */
+        height: auto;
+    }
+    .profile-img{
+        width: 120%;
+        height: 100%;
+        /* align-items: end; */
+    }
+    .brand-bar{
+        margin-top: 60px;
+    }
+    .home-experience{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .home-intro{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px 80px 20px 80px;
+        box-shadow: 0px 10px 10px 0px rgba(167, 167, 179, 0.2);
+        /* height: 720px; */
+        height: auto;
+    }
+    .profile-img{
+        width: 120%;
+        height: 100%;
+        /* align-items: end; */
+    }
+    .brand-bar{
+        margin-top: 60px;
+    }
+    .home-experience{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 80px;
+    }
+    .home-left{
+        margin-left: 50px;
+        width: 60%;
+    }
+    .home-right{
+        width: 40%;
+        text-align: right;
+    }
+    .profile-img{
+        width: 100%;
+        height: 100%;
+    }
+    .home-desc{
+        margin-top: 30px;
+        width: 80%;
+    }
+    .btn{
+        margin-top: 100px;
+    }
+    .home-experience-exp-cards{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 20px;
+    }
+    .home-experience-exp-card{
+        margin: 0px 10px;
+    }
+    .home-experience-right{
+        text-align: center;
+        margin: auto;
+    }
+}
+

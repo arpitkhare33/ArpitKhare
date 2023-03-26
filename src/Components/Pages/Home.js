@@ -1,4 +1,5 @@
 import './Pages.css';
+// import './Temp.css';
 import ArpitPic from './arpit-bg.png'
 import AMD from './amd.png';
 import NIT from './nit.png';
@@ -35,17 +36,17 @@ function Home(){
                 <img className="brand-img" src={IITR} alt='iitr-logo'/>
             </div>
             <div className='home-experience'>
-                <div className='home-experience-left'>
+                <div className='home-experience-left w-40'>
                     <div className='home-experience-year'>3 +</div>
                     <div className='home-experience-year-desc'>Years of Experience Working</div>
                 </div>
                 
-                <div className='home-experience-right'>
+                <div className='home-experience-right w-60'>
                     <div className='home-experience-title'>Full Stack Developer specialized in Python, SQL and ETL handling.</div>
                     <div className='home-experience-exp-cards'>
-                        <div className='home-experience-exp-card current'><img src={DeployedCode} alt="Deployed"/>Full Stack Developer</div>
-                        <div className='home-experience-exp-card'><img src={Analytics} alt="Analytics"/>Data Analyst</div>
-                        <div className='home-experience-exp-card'><img src={School} alt="School"/>Coding Instructor</div>
+                        <div className='home-experience-exp-card current'><img src={DeployedCode} alt="Deployed"/><br/>Full Stack Developer</div>
+                        <div className='home-experience-exp-card'><img src={Analytics} alt="Analytics"/><br/>Data Analyst</div>
+                        <div className='home-experience-exp-card'><img src={School} alt="School"/><br/>Coding Instructor</div>
                     </div>
                 </div>
 

@@ -1,0 +1,151 @@
+.home-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 80px 20px 80px;
+    box-shadow: 0px 10px 10px 0px rgba(167, 167, 179, 0.2);
+    height: 500px;
+}
+@media (max-width: 600px){
+.home-intro{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    margin: 20px 80px 20px 80px;
+    box-shadow: 0px 10px 10px 0px rgba(167, 167, 179, 0.2);
+    /* height: 720px; */
+    height: auto;
+}
+.profile-img{
+    /* height: 50%; */
+    display: none;
+}
+.home-experience-left{
+    text-align: center;
+    width: auto;
+}
+.home-experience-title{
+    text-align: center;
+}
+}
+
+.profile-img{
+/* width: 550px; */
+height: 100%;
+/* display: none; */
+
+}
+.home-title{
+color: rgb(18,8,69);
+font-size: 85px;
+font-weight: bolder;
+}
+
+.btn{
+background-color: rgb(117,98,224);
+color: white;
+padding: 8px 14px;
+border-radius: 5px;
+border: none;
+margin-top: 30px;
+cursor: pointer;
+}
+.home-left{
+padding: 30px 40px;
+}
+.home-desc{
+margin-top: 40px;
+/* width: 550px; */
+}
+.brand-img{
+width: 90px;
+height: 90px;
+margin: 0px 50px;
+}
+.brand-bar{
+/* margin: 80px 300px; */
+width: 100%;
+margin-top: 40px;
+padding: 10px;
+text-align: center;
+}
+.home-experience-left{
+/* margin-left: 250px; */
+margin: 100px 0px;
+width: 40%;
+/* text-align: center; */
+
+}
+.home-experience-right{
+/* margin-right: 200px; */
+text-align: center;
+width: 60%;
+}
+.home-experience-year{
+font-size: 100px;
+font-weight: bolder;
+color: rgb(117,98,224);
+}
+.home-experience-year-desc{
+font-weight: bolder;
+color: rgb(85,79,111);
+font-size: 30px;
+}
+
+.home-experience-title{
+color: rgb(18,8,69);
+font-size: 30px;
+font-weight: bolder;
+margin: 0px 200px;
+
+}
+.home-experience-exp-cards{
+/* display: flex; */
+margin-top: 30px;
+}
+
+
+@media (min-width: 768px) {
+.home-experience-exp-cards{
+    display: flex;
+    margin-top: 30px;
+}
+.home-experience{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    text-align: center;
+    width: auto;
+}
+}
+.home-experience{
+text-align: center;
+margin-top: 60px;
+width: auto;
+}
+.home-experience-exp-card{
+width: 150px;
+background-color: rgb(244, 244, 249);
+height: 100px;
+
+/* flex-direction: column; */
+margin: 10px 2px;
+padding: 60px 60px;
+}
+.current{
+background-color:  rgb(117,98,224) !important; 
+color: white;
+}
+.home-experience-exp-card img{
+margin-bottom: 20px;
+}
+.cs-container{
+text-align: center;
+}
+.cs-img{
+height: 600px;
+width: 600px;
+}
+.home-container{
+width: auto;
+}
